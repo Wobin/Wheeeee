@@ -8,14 +8,5 @@ return {
 			mod_localization = "Wheeeee/scripts/mods/Wheeeee/Wheeeee_localization",
 		})
 	end,
-	 load_after = {
-    "DarktideLocalServer",
-    "Audio",
-  },
-  require = {
-    "DarktideLocalServer",
-    "Audio",
-  },
-  version = "2.0",
 	packages = {},
 }
