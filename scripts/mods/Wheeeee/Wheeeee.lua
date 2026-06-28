@@ -1,6 +1,6 @@
 local mod = get_mod("Wheeeee")
 
-mod.version = "2.0"
+mod.version = "3.0"
 
 local Unit = rawget(_G, "Unit")
 local unit_alive = Unit and Unit.alive
