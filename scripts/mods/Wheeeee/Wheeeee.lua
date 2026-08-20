@@ -1,6 +1,6 @@
 local mod = get_mod("Wheeeee")
 
-mod.version = "3.0"
+mod.version = mod.get_metadata and mod:get_metadata("version") or "unknown"
 
 local Unit = rawget(_G, "Unit")
 local unit_alive = Unit and Unit.alive

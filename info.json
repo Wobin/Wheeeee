@@ -1,0 +1,19 @@
+{
+	"name": "Wheeeee",
+	"description": "Adds in cartoon screams to anyone getting flung around in the game",
+	"version": "3.0",
+	"author": "Wobin",
+	"source": "https://github.com/Wobin/Wheeeee",
+	"funding": {
+		"kofi": "https://ko-fi.com/wobin_dwonderdog"
+	},
+	"order": {
+		"require": [
+			"SimpleAudio"
+		],
+		"this_after": [
+			"SimpleAudio"
+		],
+		"this_before": []
+	}
+}

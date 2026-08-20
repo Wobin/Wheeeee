@@ -14,6 +14,5 @@ return {
   require = {
     "SimpleAudio",
   },
-  version = "3.0",
 	packages = {},
 }
